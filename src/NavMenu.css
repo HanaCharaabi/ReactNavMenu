@@ -1,0 +1,122 @@
+.off{display: none}
+.on{display:block;}
+
+
+
+.drop{
+    position: relative;
+    cursor: pointer;
+    display: inline-block;}
+  
+  
+    #drop-menu{
+      cursor:pointer;
+      height:auto;
+      border-top:1px solid #F6F8F8;
+      list-style-type:none;
+      border-radius: 8px;
+      position: absolute ;
+      width:auto;
+      z-index :1 ;
+      background-color:rgb(255, 255, 255);
+      margin-right: 32px;
+      margin-left: -60px;
+  
+    }
+  
+    #drop-menu li{
+      padding: 10px 40px;
+      margin-left: -40px;
+      margin-right: 0px;
+      width: 250px;
+    }
+  
+  
+    .drop:hover #drop-menu{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+  
+    }
+  
+  
+  #drop-menu li:hover{
+    background-color:#F6F8F8;
+    border-radius: 8px;
+    color:#ffaa3b;
+  }
+  
+  .container {
+      width: 1000px;
+      margin: 20px auto;
+  }
+  
+  .center {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .hide {
+      display: none;
+  }
+  
+  .menu {
+      background-color: white;
+      box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15);
+      border-radius: 8px;
+      width: 520px;
+      height: 80px;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 70px;
+      position: relative;
+  
+  }
+  
+  .menu__right {
+      display: flex;
+      align-items: center;
+      height: 100%;
+  }
+  
+  .menu__list {
+      list-style-type: none;
+      padding: 0;
+      height: 100%;
+      margin: 0;
+      margin-right: 40px;
+  }
+  
+  .menu__list-item {
+      display: inline-block;
+      height: 100%;
+      margin-right: 20px;
+  }
+  
+  .menu__list-item:last-child {
+      margin-right: 0;
+  }
+  .menu__link--active{
+    color: #ffaa3b;
+    border-top: 4px solid #ffaa3b;
+    font-weight: 700;
+   
+  }
+  .menu__link {
+      color: #3a3e47;
+      display: inline-block;
+      height: 100%;
+      font-size: 16px;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      padding: 0 3px;
+  }
+  
+  .menu__link:hover {
+      color: #ffaa3b;
+  }
+  
+  
+  
